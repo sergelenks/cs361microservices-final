@@ -8,7 +8,7 @@ In main.py:
   sets = int(input("Enter the number of sets: "))
   reps = int(input("Enter the number of reps: "))
   create_communication(1, name, sets, reps)
-  # This will update the communications table with the ‘action’ of 1 and workout details.
+  This will update the communications table with the ‘action’ of 1 and workout details.
 
 The microservice will then read an ‘action’ of 1 which creates a workout with ‘name’, ‘sets’, and ‘reps’, and updated the workout to the workout_tracker database.
 
